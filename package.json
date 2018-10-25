@@ -1,0 +1,19 @@
+{
+  "name": "oef2",
+  "version": "0.0.1",
+  "description": "Dit is oefening 1 van labo groep 2DEV1.",
+  "main": "index.js",
+  "author": "Eva Denys ",
+  "license": "MIT",
+  "scripts": {
+    "production": "webpack --mode production",
+    "development": "NODE_ENV=development webpack --watch --mode development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
