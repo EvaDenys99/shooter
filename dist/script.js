@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log(\"Game started\");\n\n//# sourceURL=webpack:///./src/js/script.js?");
+eval("{\n  console.log(\"Game started\");\n  const $canvas = document.querySelector(`#canvas`),\n        ctx = $canvas.getContext(`2d`);\n  let catalog = {};\n  let obj = {};\n  let key = 'propnaam';\n  let value = 'de waarde voor de property';\n  obj[key] = value;\n\n  const init = () => {\n    console.log(\"hello\");\n  };\n\n  init();\n}\n\n//# sourceURL=webpack:///./src/js/script.js?");
 
 /***/ })
 
